@@ -10,29 +10,43 @@ TIMEZONE = "Asia/Kolkata"
 
 TIMETABLE = {
     "Monday": [
-        ("09:00 AM - 10:00 AM", "Data Structures", "Room 204"),
-        ("10:00 AM - 11:00 AM", "Operating Systems", "Room 102"),
-        ("11:15 AM - 01:00 PM", "DS Lab", "Lab 3"),
+        ("09:00 AM - 10:00 AM", "DSA (Data Science & Its Applications)", "LH-15"),
+        ("10:00 AM - 11:00 AM", "DBMS (Database Management System)", "LH-15"),
+        ("11:15 AM - 12:15 PM", "ES (Environmental Studies)", "LH-15"),
+        ("12:15 PM - 01:15 PM", "PML (Principles of Machine Learning)", "LH-15"),
+        ("02:15 PM - 04:15 PM", "AIML Lab (B1) / DBMS Lab (B2)", "Lab"),
     ],
     "Tuesday": [
-        ("09:00 AM - 10:00 AM", "Database Systems", "Room 201"),
-        ("10:00 AM - 11:00 AM", "Computer Networks", "Room 204"),
-        ("02:00 PM - 03:00 PM", "Discrete Mathematics", "Room 105"),
+        ("09:00 AM - 10:00 AM", "DSA (Data Science & Its Applications)", "LH-15"),
+        ("10:00 AM - 11:00 AM", "DBMS (Database Management System)", "LH-15"),
+        ("11:15 AM - 01:15 PM", "Mini-Project (B2)", ""),
+        ("02:15 PM - 04:15 PM", "AIML Lab (B2) / DBMS Lab (B1)", "Lab"),
     ],
     "Wednesday": [
-        ("09:00 AM - 10:00 AM", "Operating Systems", "Room 102"),
-        ("10:00 AM - 11:00 AM", "Software Engineering", "Room 301"),
+        ("09:00 AM - 10:00 AM", "DSA (Data Science & Its Applications)", "LH-15"),
+        ("10:00 AM - 11:00 AM", "DBMS (Database Management System)", "LH-15"),
+        ("11:15 AM - 12:15 PM", "ES (Environmental Studies)", "LH-15"),
+        ("12:15 PM - 01:15 PM", "HCI (Human Computer Interface)", "LH-15"),
+        ("02:15 PM - 03:15 PM", "RMIPR (Research Methodology & IPR)", "LH-15"),
+        ("04:15 PM - 05:15 PM", "NSS / PHY / YOGA", ""),
     ],
     "Thursday": [
-        ("09:00 AM - 10:00 AM", "Computer Networks", "Room 204"),
-        ("11:00 AM - 12:00 PM", "Database Systems", "Room 201"),
-        ("02:00 PM - 04:00 PM", "DBMS Lab", "Lab 2"),
+        ("09:00 AM - 11:00 AM", "COE", ""),
+        ("11:15 AM - 01:15 PM", "Mini-Project (B1)", ""),
+        ("02:15 PM - 03:15 PM", "PML (Principles of Machine Learning)", "LH-15"),
+        ("03:15 PM - 04:15 PM", "HCI (Human Computer Interface)", "LH-15"),
     ],
     "Friday": [
-        ("09:00 AM - 10:00 AM", "Discrete Mathematics", "Room 105"),
-        ("10:00 AM - 11:00 AM", "Software Engineering", "Room 301"),
+        ("09:00 AM - 10:00 AM", "HCI (Human Computer Interface)", "LH-15"),
+        ("10:00 AM - 11:00 AM", "PML (Principles of Machine Learning)", "LH-15"),
+        ("11:15 AM - 01:15 PM", "COE", ""),
+        ("02:15 PM - 03:15 PM", "RMIPR (Research Methodology & IPR)", "LH-15"),
     ],
-    "Saturday": [],
+    "Saturday": [
+        ("09:00 AM - 10:00 AM", "PML (Principles of Machine Learning)", "LH-15"),
+        ("10:00 AM - 11:00 AM", "DSA (Data Science & Its Applications)", "LH-15"),
+        ("11:15 AM - 12:15 PM", "RMIPR (Research Methodology & IPR)", "LH-15"),
+    ],
     "Sunday": [],
 }
 
@@ -79,4 +93,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-  
+    
